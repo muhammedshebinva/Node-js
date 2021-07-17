@@ -1,4 +1,10 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
-<h2>this is express {{title}}</h2>
-<h2>My name is {{name}}</h2>
+
+
+
+{{#if person.admin}}
+
+<h1>This is addmin</h1>
+{{else}}
+<h1>this is user</h1>
+
+{{/if}}
